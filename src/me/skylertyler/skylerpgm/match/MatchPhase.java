@@ -4,7 +4,7 @@ import org.bukkit.DyeColor;
 public enum MatchPhase {
 
 	Cycling(ChatColor.RED, "Cycling"), Playing(ChatColor.YELLOW, "Playing"), Restarting(
-			ChatColor.GOLD, "Restarting"), pregame(ChatColor.GREEN, "PreGame");
+			ChatColor.GOLD, "Restarting"), PreGame(ChatColor.GREEN, "PreGame");
 
 	private ChatColor color;
 	private String text;
@@ -41,7 +41,7 @@ public enum MatchPhase {
 			return DyeColor.YELLOW;
 		case Restarting:
 			return DyeColor.ORANGE;
-		case pregame:
+		case PreGame:
 			return DyeColor.GREEN;
 		default:
 			return DyeColor.WHITE;
