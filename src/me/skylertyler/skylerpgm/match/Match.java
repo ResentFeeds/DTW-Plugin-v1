@@ -7,7 +7,7 @@ public class Match {
 
 	public Match(int match) {
 		this.matchid = match;
-		this.phase = MatchPhase.pregame;
+		this.phase = MatchPhase.PreGame;
 	}
 
 	public int getMatchID() {
