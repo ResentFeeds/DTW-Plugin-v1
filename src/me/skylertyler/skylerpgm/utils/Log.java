@@ -18,8 +18,4 @@ public class Log {
 	public static void severeMSG(String message) {
 		logger.log(Level.SEVERE, message);
 	}
-
-	public static Logger getLogger() {
-		return logger;
-	}
 }
