@@ -1,3 +1,5 @@
+package me.skylertyler.dtw;
+
 import java.util.logging.Level;
 
 import me.skylertyler.dtw.commands.CycleCommand;
