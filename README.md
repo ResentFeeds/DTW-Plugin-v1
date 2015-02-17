@@ -1,6 +1,3 @@
-SkylerPGM
-=========
+DTW-Plugin-v1
 
-
-
-TODO modules / MapInfo
+======
